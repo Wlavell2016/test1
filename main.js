@@ -318,51 +318,5 @@ console.log(container)
 //     var temp = item.features
 //     temp.forEach(function(center){
 //         console.log(center.properties.PartnerID)
-//         if(center.properties.PartnerID === 1){
-//             filters.organization = center.properties.Partner;
-//             filters.location.push(center.properties.Name)
-//         } else if(center.properties.PartnerID === 2){
-//             filters.organization = center.properties.Partner;
-//             filters.location.push(center.properties.Name)
-//         } else if(center.properties.PartnerID === 3){
-//             filters.organization = center.properties.Partner;
-//             filters.location.push(center.properties.Name)
-//         } else if(center.properties.PartnerID === 4){
-//             filters.organization = center.properties.Partner;
-//             filters.location.push(center.properties.Name)
-//         } else if(center.properties.PartnerID === 5){
-//             filters.organization = center.properties.Partner;
-//             filters.location.push(center.properties.Name)
-//         } else if(center.properties.PartnerID === 6){
-//             filters.organization = center.properties.Partner;
-//             filters.location.push(center.properties.Name)
-//         } else if(center.properties.PartnerID === 7){
-//             filters.organization = center.properties.Partner;
-//             filters.location.push(center.properties.Name)
-//         } else if(center.properties.PartnerID === 8){
-//             filters.organization = center.properties.Partner;
-//             filters.location.push(center.properties.Name)
-//         } else if(center.properties.PartnerID === 9){
-//             filters.organization = center.properties.Partner;
-//             filters.location.push(center.properties.Name)
-//         } else if(center.properties.PartnerID === 10){
-//             filters.organization = center.properties.Partner;
-//             filters.location.push(center.properties.Name)
-//         } else if(center.properties.PartnerID === 11){
-//             filters.organization = center.properties.Partner;
-//             filters.location.push(center.properties.Name)
-//         } else if(center.properties.PartnerID === 12){
-//             filters.organization = center.properties.Partner;
-//             filters.location.push(center.properties.Name)
-//         } else if(center.properties.PartnerID === 13){
-//             filters.organization = center.properties.Partner;
-//             filters.location.push(center.properties.Name)
-//         } else if(center.properties.PartnerID === 14){
-//             filters.organization = center.properties.Partner;
-//             filters.location.push(center.properties.Name)
-//         } else {
-//             filters.organization = center.properties.Partner;
-//             filters.location.push(center.properties.Name)
-//         }
 // });
 // });
