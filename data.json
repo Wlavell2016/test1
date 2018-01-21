@@ -1,4 +1,6 @@
-var data2 = {
+
+var data2 = [
+    {
     "type": "FeatureCollection",
     "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
     "features": [
@@ -252,4 +254,5 @@ var data2 = {
     { "type": "Feature", "properties": { "X": -80.273569, "Y": 45.513692, "Name": "Shawanaga First Nation", "Partner": " Independent First Nations", "PartnerID": 5, "Website": " http:\/\/shawanagafirstnation.ca\/", "Postal_Code": null, "Contact": " Ending Violence Against Indigenous Women-Family Well-Being Program and Policy Advis", "Email": null, "Phone": null, "Description": "The Ending Violence Against Indigenous Women Family Well-Being Program takes a holistic, family focused approach. IFN will coordinate and will support First Nation communities in program delivery. The client group for the Family Well-Being Worker is identified by each IFN Community, however this may include the whole family or specific family members and groups. Each local program will: provide supports, services and healing for the whole family and specific groups; provide land-based and culturally-based programming; offer workshops and education in the community about the causes of violence and how to live in a healthy way; offer case management for complex cases; and provide wrap-around services for families.", "LAT": 45.513692, "LON": -80.273569 }, "geometry": { "type": "Point", "coordinates": [ -80.273569, 45.513692 ] } },
     { "type": "Feature", "properties": { "X": -87.6702166, "Y": 49.5046032, "Name": "Whitesand First Nation", "Partner": " Independent First Nations", "PartnerID": 5, "Website": " http:\/\/www.whitesandfirstnation.com", "Postal_Code": " P0T 1A0", "Contact": " Ending Violence Against Indigenous Women-Family Well-Being Program and Policy Advisor��_��__", "Email": null, "Phone": null, "Description": "The Ending Violence Against Indigenous Women Family Well-Being Program takes a holistic, family focused approach. IFN will coordinate and will support First Nation communities in program delivery. The client group for the Family Well-Being Worker is identified by each IFN Community, however this may include the whole family or specific family members and groups. Each local program will: provide supports, services and healing for the whole family and specific groups; provide land-based and culturally-based programming; offer workshops and education in the community about the causes of violence and how to live in a healthy way; offer case management for complex cases; and provide wrap-around services for families.", "LAT": 49.5046032, "LON": -87.6702166 }, "geometry": { "type": "Point", "coordinates": [ -87.6702166, 49.5046032 ] } }
     ]
-    };
+    }
+];

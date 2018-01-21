@@ -6,6 +6,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript"  src="data.json" async></script>
         <script type="text/javascript"  src="main.js" async></script>
+        <script type="text/javascript"  src="jquery.accordion.js" async></script>
+        <link rel="stylesheet" type="text/css" href="demo.css">
+        <link rel="stylesheet" type="text/css" href="jquery.accordion.css">
 
         <title>
 
@@ -14,22 +17,37 @@
     </head>
     <body>
 <div class='container'>
-
-            <h1>A Cool Accordion</h1>
-
-<p class="description">
-</p>
-
-<ul class="accordion">
-  <li>
-    <a class="toggle" >Item 1</a>
-    <ul class="inner">
-      <li>Option 1</li>
-      <li>Option 2</li>
-      <li>Option 3</li>
-    </ul>
-  </li>
-</ul>
+    <div data-accordion-group>
+        <div class="accordion" data-accordion>
+            <div data-control>Organization</div>
+            <div data-content>
+                <div class="accordion" data-accordion>
+                    <div data-control>Union of Ontario Indians</div>
+                    <div data-content>
+                        <div>Row</div>
+                        <div>Row</div>
+                        <div>Row</div>
+                    </div>
+                </div>
+                <div class="accordion" data-accordion>
+                    <div data-control>Control</div>
+                    <div data-content>
+                        <div>Row</div>
+                        <div>Row</div>
+                        <div>Row</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" data-accordion>
+            <div data-control>Control</div>
+            <div data-content>
+                <div>Row</div>
+                <div>Row</div>
+                <div>Row</div>
+            </div>
+        </div>
+    </div>
 </div>
     </body>
 </html>
