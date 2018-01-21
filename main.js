@@ -255,7 +255,7 @@ var data2 = [
     ]
     }
 ];
-
+///
 
 // $('.accordion').accordion({
 //     "transitionSpeed": 400
@@ -275,33 +275,49 @@ var data2 = [
 
 
 
-
+/// making partner object
 function Partner(name, location, service) {
   this.name = name;
   this.location = [location];
   this.service = [service];
   };
+ /// making partner object
 
+ /// function to check if value exisits in object
   function check(arr, val) {
     return arr.some(function(arrVal) {
       return val === arrVal;
     });
   }
 
+///********************************************************
+
 var toronto2 = new Partner('toronto', 'sudbury', 'health');
 var toronto3 = new Partner('toronto', 'sudbury','health');
 var toronto4 = new Partner('toronto', 'sudbury','health');
 var toronto5 = new Partner('toronto', 'sudbury','health');
 var toronto6 = new Partner('toronto', 'sudbury','health');
+///********************************************************
 
+
+///********************************************************
+// create array to store objects
 var container = []
+// iterate through gejson stored above
 data2.forEach(function(item) {
+    // set iterator to equal the features array so can access the properties of the geoJson.
     var temp = item.features
+// iterate through the features to compare those values and populate the partner object
     temp.forEach(function(center) {
+        // create a partner object
         var object = new Partner(center.properties.Partner, center.properties.Name);
+        // push new object to array
         container.push(object)
-
+        // iterate through array and check to see if values are present.  The idea is that if the partner name is present in the array then
+        // update the locations array with the new locations found in the geojob. If not create a new partner object and set the name property to be
+        // equal to the name property found in the data2 geojson.
         container.forEach(function(partners) {
+            // this function below is supposed to check if the value is present in the array of objects but something doesnt work.
             // if (check(container, center.properties.Partner) === false) {
                 var object = new Partner(center.properties.Partner, center.properties.Name);
                 container.push(object)
