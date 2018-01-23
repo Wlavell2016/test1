@@ -317,9 +317,12 @@ $('.accordion').accordion({
 
 container.forEach(function(item) {
     $(".organization").append(`<p>${item.name}</p>`);
+        console.log(item.name)
     // var locationArray = item.location
     item.location.forEach(function(location) {
         $(".location").append(`<p>${location}</p>`);
+        console.log(location)    
+
     })
 });
 
