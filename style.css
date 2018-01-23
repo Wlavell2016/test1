@@ -10,7 +10,6 @@
  .container {
     margin-left: 25%;
     margin-right: 25%;
-    height: 100vh;
     border: red solid 2px;
     width: 40%;
     display: flex;
@@ -18,30 +17,18 @@
     justify-content: center;
 }
 
-
-
-.categories {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    /* border: blue solid 2px; */
-
-}
- .organization {
-    display: flex;
+.organization {
+    display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    border: brown solid 2px;
-    width: 50%;
-    /* background-color: #eee; */
-
 }
 
-.location{
+.location {
+    display:flex;
+    flex-direction: column;
+}
+
+
+/* .location{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,5 +36,5 @@
     height: 50px;
     width: 50%;
     border: red solid 2px;
-    /* background-color: #eee; */
-}
+    background-color: #eee;
+} */
