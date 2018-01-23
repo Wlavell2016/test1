@@ -315,21 +315,22 @@ $('.accordion').accordion({
 // console.log(container)
 
 
-// container.forEach(function(item){
-//     // var locationArray = item.location
-//     //     locationArray.forEach(function(location){
-//     //         $( ".row" ).append( `<p>${location}</p>` );
-//     //     })
-// });
+container.forEach(function(item) {
+    $(".organization").append(`<p>${item.name}</p>`);
+    // var locationArray = item.location
+    item.location.forEach(function(location) {
+        $(".location").append(`<p>${location}</p>`);
+    })
+});
 
-for( i of container){
-        $(".organization").after(`<p>${i.name}</p>`);
-        $( ".location" ).append( `<p>${i.location}</p>` );
-
-    console.log(i.name)
-    console.log(i.location)
-
-}
+// for( i of container){
+//         $(".organization").after(`<p>${i.name}</p>`);
+//         $( ".location" ).append( `<br>${i.location}</br>` );
+//
+//     console.log(i.name)
+//     console.log(i.location)
+//
+// }
 
 
 
